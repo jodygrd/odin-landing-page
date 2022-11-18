@@ -62,10 +62,40 @@ img {
 }
 
 button {
-    background-color: lightblue;
+    background-color: #3882f6;
     padding: 8px 15px;
     border-radius: 8px;
     border: none;
     text-decoration: none;
     margin: 10px 0;
+}
+
+/* Info Icons */
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: extra-bold;
+    padding: 20px 0;
+}
+
+
+.info-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 150px
+}
+
+.icon {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    height: 80px;
+    width: 80px;
+}
+
+.info {
+    font-size: 12px;
+    text-align: center;
+    width: 80px;
 }
