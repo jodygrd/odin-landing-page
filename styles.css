@@ -84,7 +84,8 @@ button {
 .info-icons {
     display: flex;
     justify-content: space-around;
-    padding: 16px 150px
+    padding: 16px 150px;
+
 }
 
 .icon {
@@ -98,4 +99,25 @@ button {
     font-size: 12px;
     text-align: center;
     width: 80px;
+}
+
+/* Quote */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 50px 150px;
+    margin-top: 50px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.attribution {
+    text-align: right;
+    font-weight: 600;
+    margin: -10px 40px;
 }
